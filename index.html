@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My page</title>
+
+<link rel='stylesheet' type='text/css' href='styles.css'/>
+
+</head>
+
+ <header>
+   <img src="https://s-media-cache-ak0.pinimg.com/236x/18/80/91/188091a84ef94d0085d03437462526af.jpg">
+   <h1>Places to visit</h1>
+   <ul>
+     <li><a class="nav" href="#">home</a></li>
+     <li><a class="nav" href="#">about us</a></li>
+     <li><a class="nav" href="#locations">loactions</a></li>
+   </ul>
+ </header>
+
+ <article>
+   <h2>London</h2>
+   <p>information</p>
+   <button>like</button>
+ </article>
+
+ <article>
+   <h2 id="locations">Rome</h2>
+   <p>information</p>
+   <button>like</button>
+ </article>
+
+ <article>
+   <h2>Paris</h2>
+   <p>information</p>
+   <button>like</button>
+ </article>
+
+ <script> 
+   alert("hello, enjoy the website")
+   $("button").on("click", function() { 
+     alert("clicked!") 
+   });
+   $('button').click( 
+    function(){$("#fruit-list").css('color', '#ff0'); 
+  });
+
+</script>
+</body>
+</html>
